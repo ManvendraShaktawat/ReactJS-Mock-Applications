@@ -1,0 +1,8 @@
+var ActionTypes = {
+	INITIALIZE: 'INITIALIZE',
+	UPDATE_AUTHOR: 'UPDATE_AUTHOR',
+	DELETE_AUTHOR: 'DELETE_AUTHOR',
+	CREATE_AUTHOR: 'CREATE_AUTHOR'
+};
+
+export default ActionTypes;

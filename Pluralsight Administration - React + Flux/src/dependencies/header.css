@@ -1,0 +1,8 @@
+.navbar>.container-fluid .navbar-brand {
+	padding: 0;
+	margin: 0;
+}
+
+.navbar>.container-fluid .navbar-brand img {
+	height: 100%;
+}
