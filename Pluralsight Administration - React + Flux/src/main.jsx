@@ -5,5 +5,4 @@ import routes from './routes.jsx';
 import InitializeActions from './actions/initializeActions';
 
 InitializeActions.initApp();
-
 ReactDOM.render(<BrowserRouter>{routes}</BrowserRouter>, document.getElementById('app'));

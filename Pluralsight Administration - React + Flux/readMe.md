@@ -21,4 +21,4 @@
 ## Pending stuff
 
 1. Page URL's are hardcoded everywhere as name attribute of Route component is not working
-2. <Route path="*"> not working
+2. Server side routing pending
