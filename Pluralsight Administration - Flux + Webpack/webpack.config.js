@@ -22,12 +22,12 @@ var config = {
         filename: 'bundle.js',
         publicPath: '/dist/scripts/'
     },
-   
+
     devServer: {
         inline: true,
         port: 8080
     },
-   
+
     module: {
         loaders: [
             {
