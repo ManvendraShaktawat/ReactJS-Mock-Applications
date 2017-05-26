@@ -22,7 +22,7 @@ app.use(require('webpack-hot-middleware')(compiler));
 
 app.use(bodyParser.json());
 
-mongoose.connect('mongodb://localhost/users');
+mongoose.connect('mongodb://10.207.49.41/users');
 var db = mongoose.connection;
 
 
@@ -103,7 +103,7 @@ app.get('*', function(req, res) {
   res.sendFile(path.join(__dirname, '/src/','index.html'));
 });
 
-app.listen(7770, '10.207.49.41', function(err) {
+app.listen(7770, 'localhost', function(err) {
   if (err) {
     console.log(err);
     return;
