@@ -4,8 +4,7 @@ var config = {
    entry: './main.js',
    
    output: {
-      path: path.resolve('d', './'),
-      filename: 'index.js',
+      filename: 'index.js'
    },
    
    devServer: {
