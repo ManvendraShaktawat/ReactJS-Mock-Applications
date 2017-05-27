@@ -18,7 +18,7 @@ app.use(require('webpack-dev-middleware')(compiler, {
   publicPath: config.output.publicPath
 }));
 
-app.use('/src',express.static(path.join(__dirname, '/src')));
+app.use('/assets',express.static(path.join(__dirname, '/assets')));
 
 app.use(require('webpack-hot-middleware')(compiler));
 

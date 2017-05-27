@@ -7,7 +7,7 @@ class Header extends React.Component {
 			<nav className="navbar navbar-default">
 				<div className="container-fluid">
 					<Link to="/" className="navbar-brand">
-						<img src="src/images/pluralsight-logo.png"/>
+						<img src="assets/images/pluralsight-logo.png"/>
 					</Link>
 					<ul className="nav navbar-nav">
 						<li><Link to="/">Home</Link></li>
