@@ -18,6 +18,8 @@ app.use(require('webpack-dev-middleware')(compiler, {
   publicPath: config.output.publicPath
 }));
 
+app.use('/src',express.static(path.join(__dirname, '/src')));
+
 app.use(require('webpack-hot-middleware')(compiler));
 
 app.use(bodyParser.json());
