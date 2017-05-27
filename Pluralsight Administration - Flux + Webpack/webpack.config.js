@@ -1,20 +1,5 @@
 const path = require('path');
 
-var constants = {
-    devBaseUrl: 'http://localhost',
-    paths: {
-        html: './src/*.html',
-        js: './src/**/*.js*',
-        images: './src/images/*',
-        css: [
-            'node_modules/bootstrap/dist/css/bootstrap.min.css',
-            'node_modules/bootstrap/dist/css/bootstrap-theme.min.css',
-            './src/dependencies/*.css',
-            'node_modules/toastr/build/toastr.css'
-        ]
-    }
-}
-
 var config = {
     entry: './src/main.jsx',
 
@@ -39,7 +24,8 @@ var config = {
                 }
             },
             {
-                test: /\.css$/, loader: "style-loader!css-loader"
+                test: /\.css$/,
+                use: ['style-loader', 'css-loader']
             }
         ]
     }
