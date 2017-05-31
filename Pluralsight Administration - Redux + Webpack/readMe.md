@@ -1,5 +1,5 @@
 ## How to start server
-Type **gulp** in cmd
+Type **npm start -s** in cmd
 
 ## Why React
 
@@ -16,9 +16,10 @@ Type **gulp** in cmd
 1. Node & npm - Packages
 2. React - Components
 3. React Router - Routing
-4. Flux - Data Flows
-5. Browserify - Bundler
-6. Gulp - Builds
+4. REDUX - Data Flows
+5. Webpack
+6. ExpressJS
+7. MongoDB
 
 
 ## Pending stuff

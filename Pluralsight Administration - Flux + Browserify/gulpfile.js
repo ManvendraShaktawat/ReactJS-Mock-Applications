@@ -9,6 +9,7 @@ var source = require('vinyl-source-stream'); //Use-conventional text streams wit
 var concat = require('gulp-concat'); //concatnates files
 var lint = require('gulp-eslint'); //lint our js files including jsx
 var babelify = require("babelify");
+var historyApiFallback = require('connect-history-api-fallback');
 
 var config = {
   port: 9005,
@@ -34,7 +35,12 @@ gulp.task('connect', function() {
     root: ['dist'],
     port: config.port,
     base: config.devBaseUrl,
-    livereload: true
+    livereload: true,
+    middleware: function(connect, opt) {
+      return [
+        historyApiFallback({})
+      ]
+    }
   });
 });
 

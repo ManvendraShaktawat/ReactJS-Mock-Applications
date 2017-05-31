@@ -1,3 +1,6 @@
+## How to start server
+Type **npm start** in cmd
+
 ## Why React
 
 1. Fast - UI rendering is very fast even on large applications
@@ -15,9 +18,10 @@
 3. React Router - Routing
 4. Flux - Data Flows
 5. Webpack
+6. ExpressJS
+7. MongoDB
 
 
 ## Pending stuff
 
 1. Page URL's are hardcoded everywhere as name attribute of Route component is not working
-2. Server side routing pending
