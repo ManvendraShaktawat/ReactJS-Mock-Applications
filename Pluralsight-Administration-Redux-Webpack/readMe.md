@@ -1,5 +1,5 @@
 ## Pluralsight Administration
-![Layout](/assets/images/wireframe.jpg?raw=true)
+![Layout](/Pluralsight-Administration-Redux-Webpack/assets/images/wireframe.jpg?raw=true)
 
 ## How to start server
 Type **npm start -s** in cmd
