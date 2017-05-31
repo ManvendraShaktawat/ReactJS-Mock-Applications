@@ -1,3 +1,6 @@
+## Pluralsight Administration
+![Layout](/assets/images/wireframe.jpg?raw=true)
+
 ## How to start server
 Type **npm start** in cmd
 

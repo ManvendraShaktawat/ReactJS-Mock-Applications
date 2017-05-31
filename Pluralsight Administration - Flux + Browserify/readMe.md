@@ -1,3 +1,6 @@
+## Pluralsight Administration
+![Layout](/src/images/wireframe.jpg?raw=true)
+
 ## How to start server
 Type **gulp** in cmd
 
